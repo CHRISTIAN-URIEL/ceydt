@@ -11,3 +11,5 @@ use App\Http\Controllers\CeydtController;
 
 
 Route::get('/', [CeydtController::class, 'index'])->name('ceydt.index');
+Route::get('/e-commerce', [CeydtController::class, 'ecommerce'])->name('ceydt.ecommerce');
+

@@ -10,4 +10,9 @@ class CeydtController extends Controller
     {
         return view('ceydt.index');
     }
+
+    public function ecommerce()
+    {
+        return view('ceydt.ecommerce');
+    }
 }

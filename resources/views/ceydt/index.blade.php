@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./assets/images/ceydt-1.png" alt="CEYDT Logo">
+                <img src="{{ asset('assets/images/ceydt-1.png') }}" alt="CEYDT Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
                         <a class="nav-link" href="#Contacto">Contacto</a>
                     </li>
                 </ul>
-                <a href="e-commerce.html" class="btn btn-brand ms-lg-3">E-commerce</a>
+                <a href="{{ route('ceydt.ecommerce') }}" class="btn btn-brand ms-lg-3">E-commerce</a>
             </div>
         </div>
     </nav>
@@ -86,7 +86,7 @@
             </div>
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
-                    <img src="./assets/images/filosofia.png" alt="Nosotros">
+                    <img src="{{ asset('assets/images/filosofia.png') }}" alt="Nosotros">
                 </div>
                 <div class="col-lg-6" data-aos="fade-down" data-aos-delay="150">
                     <h2>Misión</h2>
@@ -272,7 +272,7 @@
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="150">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img src="./assets/images/dir1.png" alt="Denise Costes Intriago">
+                            <img src="{{ asset('assets/images/dir1.png') }}" alt="Denise Costes Intriago">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Denise Costes Intriago</h4>
@@ -283,7 +283,7 @@
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="250">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img src="./assets/images/dir2.png" alt="Ana Lilia Barbosa Villaseñor">
+                            <img src="{{ asset('assets/images/dir2.png') }}" alt="Ana Lilia Barbosa Villaseñor">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Ana Lilia Barbosa Villaseñor</h4>
@@ -340,7 +340,7 @@
             <div class="container">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-sm-6">
-                        <a href="#"><img src="./assets/images/ceydt-1.png" alt="CEYDT Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/images/ceydt-1.png') }}" alt="CEYDT Logo"></a>
                         <div class="line"></div>
                         <p>Clúster de Educación y Desarrollo de Talento - Puebla, México.</p>
                         <div class="social-icons">
