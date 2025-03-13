@@ -297,41 +297,42 @@
 
     <!-- CONTACTO -->
     <section id="Contacto" class="section-padding bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
-                    <div class="section-title">
-                        <h1 class="display-4 fw-semibold">Contacto</h1>
-                        <div class="line"></div>
-                        <p>Estamos aquí para ayudarte. ¡Contáctanos!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="250">
-                <div class="col-lg-8">
-                    <form action="#" class="row g-3 p-lg-5 p-4 bg-white theme-shadow">
-                        <div class="form-group col-lg-6">
-                            <input type="text" class="form-control" placeholder="Nombre">
-                        </div>
-                        <div class="form-group col-lg-6">
-                            <input type="text" class="form-control" placeholder="Apellido">
-                        </div>
-                        <div class="form-group col-lg-12">
-                            <input type="email" class="form-control" placeholder="Correo electrónico">
-                        </div>
-                        <div class="form-group col-lg-12">
-                            <input type="text" class="form-control" placeholder="Asunto">
-                        </div>
-                        <div class="form-group col-lg-12">
-                            <textarea name="message" rows="5" class="form-control" placeholder="Mensaje"></textarea>
-                        </div>
-                        <div class="form-group col-lg-12 d-grid">
-                            <button class="btn btn-brand">Enviar Mensaje</button>
-                        </div>
-                    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                <div class="section-title">
+                    <h1 class="display-4 fw-semibold">Contacto</h1>
+                    <div class="line"></div>
+                    <p>Estamos aquí para ayudarte. ¡Contáctanos!</p>
                 </div>
             </div>
         </div>
+        <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="250">
+            <div class="col-lg-8">
+                <form action="{{ route('contacto.store') }}" method="POST" class="row g-3 p-lg-5 p-4 bg-white theme-shadow">
+                    @csrf <!-- Token CSRF de Laravel -->
+                    <div class="form-group col-lg-6">
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <input type="text" class="form-control" name="apellido" placeholder="Apellido" required>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <input type="email" class="form-control" name="email" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <input type="text" class="form-control" name="asunto" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <textarea name="mensaje" rows="5" class="form-control" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <div class="form-group col-lg-12 d-grid">
+                        <button type="submit" class="btn btn-brand">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     </section>
 
     <!-- FOOTER -->
