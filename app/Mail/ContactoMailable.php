@@ -36,7 +36,8 @@ class ContactoMailable extends Mailable
      */
     public function build()
     {
-        return $this->from($this->email, $this->nombre . ' ' . $this->apellido)
+        return $this->from('clusterceydt@ceydt.site', 'CEYDT Cluster')
+            ->replyTo($this->email, $this->nombre . ' ' . $this->apellido)
             ->subject($this->asunto)
             ->view('emails.contacto'); // vista del correo
     }
