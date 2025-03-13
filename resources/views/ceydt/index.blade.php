@@ -47,6 +47,21 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#Directorio">Directorio</a>
                     </li>
+                    <!-- Menu desplgable de regiones -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownRegiones" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Regiones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownRegiones">
+                            <li><a class="dropdown-item" href="region-puebla.html">Puebla</a></li>
+                            <li><a class="dropdown-item" href="region-tlaxcala.html">Tlaxcala</a></li>
+                            <li><a class="dropdown-item" href="region-guerrero.html">Guerrero</a></li>
+                            <li><a class="dropdown-item" href="region-veracruz.html">Veracruz</a></li>
+                            <li><a class="dropdown-item" href="region-otras.html">Otras Regiones</a></li>
+                        </ul>
+                    </li>
+                    <!-- Menu desplgable de regiones -->
                     <li class="nav-item">
                         <a class="nav-link" href="#Contacto">Contacto</a>
                     </li>
