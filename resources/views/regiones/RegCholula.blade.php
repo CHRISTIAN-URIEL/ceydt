@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#inicio">Inicio</a>
+                        <a class="nav-link" href="#region">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#atracciones">Atracciones</a>
