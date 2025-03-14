@@ -348,6 +348,7 @@
             </div>
         </div>
     </div>
+    <!-- Mensaje de éxito al enviar el formulario -->
     @if(session('success'))
         <div class="alert alert-success">
             {{ session('success') }}
