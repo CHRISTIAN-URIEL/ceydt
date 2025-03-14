@@ -55,7 +55,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownRegiones">
                             <li><a class="dropdown-item" href="region-puebla.html">Puebla</a></li>
-                            <li><a class="dropdown-item" href="region-tlaxcala.html">Tlaxcala</a></li>
+                            <li><a class="dropdown-item" href="{{ route('regiones.RegCholula') }}">Cholula</a></li>
                             <li><a class="dropdown-item" href="region-guerrero.html">Guerrero</a></li>
                             <li><a class="dropdown-item" href="region-veracruz.html">Veracruz</a></li>
                             <li><a class="dropdown-item" href="region-otras.html">Otras Regiones</a></li>
