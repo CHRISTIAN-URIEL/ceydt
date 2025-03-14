@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="{{ asset('assets/images/ceydt-1.png') }}" alt="CEYDT Logo">
+                <img src="{{ asset('assets/images/ceydt-1-min.webp') }}" alt="CEYDT Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,7 +101,7 @@
             </div>
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
-                    <img src="{{ asset('assets/images/filosofia.png') }}" alt="Nosotros">
+                    <img src="{{ asset('assets/images/filosofia-min.webp') }}" alt="Nosotros">
                 </div>
                 <div class="col-lg-6" data-aos="fade-down" data-aos-delay="150">
                     <h2>Misión</h2>
@@ -287,7 +287,7 @@
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="150">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img src="{{ asset('assets/images/dir1.png') }}" alt="Denise Costes Intriago">
+                            <img src="{{ asset('assets/images/dir1-min.webp') }}" alt="Denise Costes Intriago">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Denise Costes Intriago</h4>
@@ -298,7 +298,7 @@
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="250">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img src="{{ asset('assets/images/dir2.png') }}" alt="Ana Lilia Barbosa Villaseñor">
+                            <img src="{{ asset('assets/images/dir2-min.webp') }}" alt="Ana Lilia Barbosa Villaseñor">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Ana Lilia Barbosa Villaseñor</h4>
