@@ -362,7 +362,7 @@
             <div class="container">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-sm-6">
-                        <a href="#"><img src="{{ asset('assets/images/ceydt-1.png') }}" alt="CEYDT Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/images/ceydt-1-min.webp') }}" alt="CEYDT Logo"></a>
                         <div class="line"></div>
                         <p>Clúster de Educación y Desarrollo de Talento - Puebla, México.</p>
                         <div class="social-icons">
