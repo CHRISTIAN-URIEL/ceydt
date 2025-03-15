@@ -3,7 +3,7 @@
 
 /* VARIABLES */
 :root {
-    --c-dark: rgba(255, 248, 248, 0.861);
+    --c-dark: #727272;
     --c-brand: #656bc6;
     --c-brand-light: #6970dd;
     --c-brand-rgb: 78, 87, 212;
