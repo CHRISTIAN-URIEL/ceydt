@@ -54,11 +54,11 @@
                             Regiones
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownRegiones">
-                            <li><a class="dropdown-item" href="region-puebla.html">Puebla</a></li>
+                            <li><a class="dropdown-item" href="region-puebla.html">Puebla....</a></li>
                             <li><a class="dropdown-item" href="{{ route('regiones.RegCholula') }}">Cholula</a></li>
-                            <li><a class="dropdown-item" href="region-guerrero.html">Guerrero</a></li>
-                            <li><a class="dropdown-item" href="region-veracruz.html">Veracruz</a></li>
-                            <li><a class="dropdown-item" href="region-otras.html">Otras Regiones</a></li>
+                            <li><a class="dropdown-item" href="region-guerrero.html">Atlixco....</a></li>
+                            <li><a class="dropdown-item" href="region-veracruz.html">Zacatlan....</a></li>
+                            <li><a class="dropdown-item" href="region-otras.html">Sierra Oriental....</a></li>
                         </ul>
                     </li>
                     <!-- Menu desplgable de regiones -->
@@ -362,7 +362,7 @@
             <div class="container">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-sm-6">
-                        <a href="#"><img src="{{ asset('assets/images/ceydt-1-min.webp') }}" alt="CEYDT Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/images/ceydt-1-min.webp') }}" loading="lazy" alt="CEYDT Logo"></a>
                         <div class="line"></div>
                         <p>Clúster de Educación y Desarrollo de Talento - Puebla, México.</p>
                         <div class="social-icons">
