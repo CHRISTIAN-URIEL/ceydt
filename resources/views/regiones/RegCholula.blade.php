@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="{{ asset('assets/css/region.css')}}" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="module" src="{{ asset('assets/js/region.js') }}"></script>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NAVBAR -->
@@ -40,7 +39,7 @@
                         <a class="nav-link" href="#restaurantes">Dónde Comer</a>
                     </li>
                 </ul>
-                <a href="#" class="btn btn-brand ms-lg-3">Reservar Tour</a>
+                <!--<a href="{{ url('ceydt.index') }}" class="btn btn-brand ms-lg-3">Cluster</a>-->
             </div>
         </div>
     </nav>
@@ -418,6 +417,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script type="module" src="{{ asset('assets/js/region.js') }}"></script>
 </body>
 </html>
