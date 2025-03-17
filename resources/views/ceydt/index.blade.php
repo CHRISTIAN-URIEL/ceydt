@@ -54,7 +54,7 @@
                             <li><a class="dropdown-item" href="region-puebla.html">Puebla....</a></li>
                             <li><a class="dropdown-item" href="{{ route('regiones.RegCholula') }}">Cholula</a></li>
                             <li><a class="dropdown-item" href="region-guerrero.html">Atlixco....</a></li>
-                            <li><a class="dropdown-item" href="region-veracruz.html">Zacatlan....</a></li>
+                            <li><a class="dropdown-item" href="{{ route('regiones.RegZacatlan') }}">Zacatlan....</a></li>
                             <li><a class="dropdown-item" href="region-otras.html">Sierra Oriental....</a></li>
                         </ul>
                     </li>
