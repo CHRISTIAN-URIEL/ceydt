@@ -10,4 +10,9 @@ class RegionesController extends Controller
     {
         return view('regiones.RegCholula');
     }
+
+    public function Zacatlan()
+    {
+        return view('regiones.RegZacatlan');
+    }
 }
