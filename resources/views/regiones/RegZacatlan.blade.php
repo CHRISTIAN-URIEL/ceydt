@@ -38,7 +38,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#restaurantes">Dónde Comer</a>
                     </li>
-                    <!-- Menú desplegable de regiones -->
+                    <!-- Menú desplegable de regiones
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownRegiones" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,7 +51,7 @@
                             <li><a class="dropdown-item" href="{{ route('regiones.RegZacatlan') }}">Zacatlán</a></li>
                             <li><a class="dropdown-item" href="region-otras.html">Sierra Oriental....</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

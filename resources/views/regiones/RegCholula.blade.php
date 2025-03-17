@@ -38,7 +38,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#restaurantes">Dónde Comer</a>
                     </li>
-                    <!-- Menú desplegable de regiones -->
+                    <!--
+                    Menú desplegable de regiones
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownRegiones" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,10 +53,9 @@
                             <li><a class="dropdown-item" href="#">Sierra Oriental</a></li>
                         </ul>
                     </li>
-                    <!-- Fin del menú desplegable de regiones -->
+                    Fin del menú desplegable de regiones
                 </ul>
-                <!-- Botón del Cluster -->
-                <a href="{{ route('ceydt.index') }}" class="btn btn-brand ms-lg-3">Cluster</a>
+                <a href="{{ route('ceydt.index') }}" class="btn btn-brand ms-lg-3">Cluster</a> -->
             </div>
         </div>
     </nav>
