@@ -51,11 +51,11 @@
                             Regiones
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownRegiones">
-                            <li><a class="dropdown-item" href="region-puebla.html">Puebla....</a></li>
-                            <li><a class="dropdown-item" href="{{ route('regiones.RegCholula') }}">Cholula</a></li>
-                            <li><a class="dropdown-item" href="region-guerrero.html">Atlixco....</a></li>
-                            <li><a class="dropdown-item" href="{{ route('regiones.RegZacatlan') }}">Zacatlan....</a></li>
-                            <li><a class="dropdown-item" href="region-otras.html">Sierra Oriental....</a></li>
+                            <!-- <li><a class="dropdown-item" href="region-puebla.html">Puebla....</a></li> -->
+                            <li><a class="dropdown-item" href="{{ route('regiones.RegCholula')}}">Cholula</a></li>
+                            <!-- <li><a class="dropdown-item" href="region-guerrero.html">Atlixco....</a></li> -->
+                            <li><a class="dropdown-item" href="{{ route('regiones.RegZacatlan')}}">Zacatlan</a></li>
+                            <!-- <li><a class="dropdown-item" href="region-otras.html">Sierra Oriental....</a></li> -->
                         </ul>
                     </li>
                     <!-- Menu desplgable de regiones -->
@@ -363,8 +363,8 @@
                         <div class="line"></div>
                         <p>Clúster de Educación y Desarrollo de Talento - Puebla, México.</p>
                         <div class="social-icons">
-                            <a href="#"><i class="ri-facebook-fill"></i></a>
-                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <!--<a href="#"><i class="ri-facebook-fill"></i></a>
+                            <a href="#"><i class="ri-twitter-fill"></i></a> -->
                             <a href="#"><i class="ri-linkedin-fill"></i></a>
                         </div>
                     </div>
