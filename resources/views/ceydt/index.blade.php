@@ -41,10 +41,13 @@
                         <a class="nav-link" href="#Instituciones">Instituciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Eventos">Eventos</a>
+                        <a class="nav-link" href="#Directorio">Directorio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Directorio">Directorio</a>
+                        <a class="nav-link" href="#Mesas">Mesas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Foro">Foro</a>
                     </li>
                     <!-- Menu desplgable de regiones -->
                     <li class="nav-item dropdown">
@@ -87,19 +90,22 @@
     </section>
 
     <!-- NOSOTROS -->
-    <section id="Nosotros" class="section-padding">
+    <section id="Nosotros" class="section-padding bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                     <div class="section-title">
                         <h1 class="display-4 fw-semibold">Filosofía</h1>
                         <div class="line"></div>
-                        <p>Somos una comunidad educativa colaborativa que trabaja para desarrollar y atraer talento, formando profesionales e investigadores de alta calidad.</p>
+                        <p class="text-justify">Somos una comunidad educativa colaborativa que trabaja para desarrollar y atraer talento, 
+                            formando profesionales e investigadores de alta calidad, capaces de proponer soluciones científicas
+                            e innovadoras en diferentes sectores, como empresas, gobierno e instituciones.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
+                <div class="col-lg-6" data-aos="fade-down" data-aos-delay="150">
                     <img src="{{ asset('assets/images/filosofia-min.webp') }}" loading="lazy" alt="Nosotros">
                 </div>
                 <div class="col-lg-6" data-aos="fade-down" data-aos-delay="150">
@@ -128,38 +134,47 @@
             <div class="row">
                 <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
                     <div class="section-title">
-                        <h1 class="display-4 fw-semibold">Servicios</h1>
+                        <h1 class="display-4 fw-semibold">Servicios y Beneficios </h1>
                         <div class="line"></div>
-                        <p>Ofrecemos servicios integrales para instituciones, estudiantes, empresas y aliados estratégicos.</p>
+                        <p>Ofrecemos servicios integrales para instituciones, estudiantes, empresas y aliados estratégicos; fortaleciendo la colaboración, innovación e impacto social.</p>
                     </div>
                 </div>
             </div>
             <div class="row g-4 text-center">
-                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="450">
                     <div class="service theme-shadow p-lg-5 p-4">
                         <div class="iconbox">
                             <i class="ri-book-2-fill"></i>
                         </div>
-                        <h5 class="mt-4 mb-3">Para Instituciones</h5>
+                        <h5 class="mt-4 mb-3">Para Instituciones Educativas</h5>
                         <p>Visibilidad en proyectos, redes de colaboración académica, acceso a congresos y talleres exclusivos.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="250">
                     <div class="service theme-shadow p-lg-5 p-4">
                         <div class="iconbox">
                             <i class="ri-user-5-fill"></i>
                         </div>
-                        <h5 class="mt-4 mb-3">Para Estudiantes</h5>
-                        <p>Formación integral, oportunidades de vinculación laboral, becas y apoyos educativos.</p>
+                        <h5 class="mt-4 mb-3">Para Comunidad Estudiantil</h5>
+                        <p>Formación integral en temas innovadores, oportunidades de vinculación laboral, becas y apoyos educativos.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="350">
                     <div class="service theme-shadow p-lg-5 p-4">
                         <div class="iconbox">
                             <i class="ri-building-2-fill"></i>
                         </div>
-                        <h5 class="mt-4 mb-3">Para Empresas</h5>
-                        <p>Acceso a talento preparado, proyectos de innovación y desarrollo científico.</p>
+                        <h5 class="mt-4 mb-3">Para Empresas y Sector Productivo</h5>
+                        <p>Acceso a talento preparado, proyectos de innovación y desarrollo científico y fortalecimiento de la responsabilidad social empresarial (RSE).</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+                    <div class="service theme-shadow p-lg-5 p-4">
+                        <div class="iconbox">
+                            <i class="ri-building-fill"></i>
+                        </div>
+                        <h5 class="mt-4 mb-3">Para Aliados Estratégicos y Sociedad </h5>
+                        <p>Espacios para la colaboración multisectorial, Promoción y difusión, Incentivos para proyectos con impacto educativo, Acceso a eventos abiertos y Promoción de la equidad y sostenibilidad.</p>
                     </div>
                 </div>
             </div>
@@ -244,33 +259,8 @@
         </div>
     </section>
 
-    <!-- EVENTOS -->
-    <section id="Eventos" class="section-padding bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
-                    <div class="section-title">
-                        <h1 class="display-4 fw-semibold">Eventos</h1>
-                        <div class="line"></div>
-                        <p>Organizamos eventos y actividades para fortalecer la vinculación entre el sector educativo, productivo y la sociedad.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6" data-aos="fade-down" data-aos-delay="150">
-                    <h3>Mesas Sectoriales</h3>
-                    <p>Espacios estratégicos de diálogo y colaboración entre universidades, empresas y organismos públicos.</p>
-                </div>
-                <div class="col-md-6" data-aos="fade-down" data-aos-delay="250">
-                    <h3>Foro de Talento Humano</h3>
-                    <p>Evento anual que reúne a expertos, académicos, empresarios y estudiantes para discutir tendencias y desafíos relacionados con el capital humano.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- DIRECTORIO -->
-    <section id="Directorio" class="section-padding">
+    <section id="Directorio" class="section-padding bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
@@ -304,6 +294,139 @@
                             <h4 class="text-white">Ana Lilia Barbosa Villaseñor</h4>
                             <p class="mb-0 text-white">Directora del Clúster de Educación - CEO Agora Educación</p>
                             <p class="mb-0 text-white">Directora General Comunicación y Logística Habla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MESAS SECTORIALES -->
+    <section id="Mesas" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Mesas Sectoriales</h1>
+                </div>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6" data-aos="fade-right" data-aos-delay="150">
+                    <p>Las Mesas Sectoriales son espacios estratégicos de diálogo y colaboración entre universidades, empresas y organismos públicos, organizados por áreas de interés o industrias clave. Estas reuniones permiten identificar las competencias y habilidades que demandan los sectores productivos, promoviendo así la alineación de los programas educativos con las necesidades del mercado laboral.</p>
+                    <p>Entre los sectores involucrados destacan:</p>
+                    <ul>
+                        <li>Tecnologías de la información</li>
+                        <li>Energías renovables</li>
+                        <li>Industria automotriz</li>
+                        <li>Turismo</li>
+                        <li>Salud y biotecnología</li>
+                    </ul>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-delay="150">
+                    <img src="{{ asset('assets/images/Mesa_sectorial.webp') }}" loading="lazy" alt="Mesas Sectoriales" class="img-fluid rounded">
+                    <p>A través de estas mesas, se diseñan proyectos conjuntos como programas de capacitación, prácticas profesionales e iniciativas de investigación aplicada, fortaleciendo la competitividad regional. Además, se generan propuestas de políticas públicas y alianzas estratégicas que impulsan tanto el crecimiento económico como el desarrollo social en Puebla y las regiones participantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORO DE TALENTO HUMANO -->
+    <section id="Foro" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down">
+                    <div class="section-title">
+                        <div class="mb-4">
+                            <img src="{{ asset('assets/images/iconos/ceydt.ico') }}" loading="lazy" alt="Foro de Talento Humano" class="img-fluid" style="max-width: 150px;">
+                        </div>
+                        <h1 class="display-4 fw-semibold">Foro de Talento Humano</h1>
+                        <div class="line"></div>
+                        <p class="lead">Reflexión, análisis y estrategias para el desarrollo del talento humano.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <!-- Sección 1: ¿Qué es el Foro de Talento Humano? -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-right">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title">¿Qué es el Foro de Talento Humano?</h2>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="ri-checkbox-circle-fill text-primary me-2"></i>
+                                    Es un evento anual que reúne a expertos, académicos, empresarios, estudiantes y líderes de opinión.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="ri-checkbox-circle-fill text-primary me-2"></i>
+                                    Incluye conferencias magistrales, paneles de discusión, talleres interactivos y espacios de networking.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sección 2: Objetivos Principales -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="100">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title">Objetivos Principales</h2>
+                            <ol class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="ri-arrow-right-circle-fill text-primary me-2"></i>
+                                    <strong>Inspirar y conectar:</strong> Reunir a actores clave para compartir experiencias y mejores prácticas.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="ri-arrow-right-circle-fill text-primary me-2"></i>
+                                    <strong>Fomentar la innovación educativa:</strong> Presentar proyectos, tecnologías y metodologías transformadoras.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sección 3: Temáticas Relevantes -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-left" data-aos-delay="200">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title">Temáticas Relevantes</h2>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="ri-arrow-right-s-line text-primary me-2"></i>
+                                    Competencias digitales para la nueva era laboral.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="ri-arrow-right-s-line text-primary me-2"></i>
+                                    Tendencias en liderazgo y gestión del talento.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="ri-arrow-right-s-line text-primary me-2"></i>
+                                    Inclusión y diversidad en el desarrollo humano.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="ri-arrow-right-s-line text-primary me-2"></i>
+                                    Impacto de la inteligencia artificial y la automatización en la educación y el empleo.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sección 4: Resultados Destacados -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-left" data-aos-delay="300">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title">Resultados Destacados</h2>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="ri-checkbox-circle-fill text-primary me-2"></i>
+                                    Creación de una agenda educativa alineada con las necesidades del mercado laboral.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="ri-checkbox-circle-fill text-primary me-2"></i>
+                                    Reconocimientos a proyectos innovadores en el ámbito educativo y social.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="ri-checkbox-circle-fill text-primary me-2"></i>
+                                    Vinculación entre estudiantes, universidades y empresas mediante actividades prácticas y sesiones de networking.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

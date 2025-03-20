@@ -246,69 +246,6 @@ img {
     bottom: 24px;
 }
 
-/* Estilos para el contendor del equipo 
-.team-member {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-/* Estilos para la imagen del directivo
-.image-zoom-wrapper img {
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    width: 100%;
-    display: block;
-}
-
-/* Estilos para el contenido del directivo (nombre y cargo)
-.team-member-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(101, 107, 198, 0.9); /* Fondo semi-transparente
-    color: white;
-    padding: 20px;
-    text-align: center;
-    transition: opacity 0.5s ease;
-    opacity: 1; /* Visible por defecto
-}
-
-/* Estilos para el cuadro de información adicional
-.team-member-info {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(101, 107, 198, 0.9); /* Fondo semi-transparente
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0; /* Inicialmente invisible
-    transition: opacity 0.5s ease;
-}
-
-/* Efecto hover: la imagen desaparece y aparece el cuadro de información
-.team-member:hover .image-zoom-wrapper img {
-    opacity: 0; /* La imagen desaparece
-    transform: scale(1.1); /* Opcional: un pequeño zoom al desaparecer
-}
-
-.team-member:hover .team-member-content {
-    opacity: 0; /* El nombre y cargo desaparecen
-}
-
-.team-member:hover .team-member-info {
-    opacity: 1;  El cuadro de información aparece
-}
-*/
-
-
-
 /* CONTACT */
 #Contacto {
     position: relative;
@@ -389,3 +326,10 @@ footer .line {
     color: white;
 }
 
+/* Estilos para la imagen */
+.section-title img {
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra (opcional) */
+}
