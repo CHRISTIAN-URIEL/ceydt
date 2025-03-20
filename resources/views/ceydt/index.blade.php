@@ -286,36 +286,24 @@
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="150">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img src="{{ asset('assets/images/dir1-min.webp') }}" loading="lazy" alt="Denise Costes Intriago">
+                            <img src="{{ asset('assets/images/Dir_Denise.webp') }}" loading="lazy" alt="Denise Costes Intriago">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Denise Costes Intriago</h4>
-                            <p class="mb-0 text-white">Presidenta</p>
-                        </div>
-                        <!-- Nuevo cuadro de información -->
-                        <div class="team-member-info">
-                            <h4 class="text-white">Denise Costes Intriago</h4>
-                            <p class="text-white">Presidenta</p>
-                            <p class="text-white">Responsable de la estrategia general del clúster.</p>
-                            <p class="text-white">Contacto: denise@example.com</p>
+                            <p class="mb-0 text-white">Directora de Vinculación ICUM</p>
+                            <p class="mb-0 text-white">Presidente del Clúster de Educación</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="250">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
-                            <img src="{{ asset('assets/images/dir2-min.webp') }}" loading="lazy" alt="Ana Lilia Barbosa Villaseñor">
+                            <img src="{{ asset('assets/images/Dir_Ana.webp') }}" loading="lazy" alt="Ana Lilia Barbosa Villaseñor">
                         </div>
                         <div class="team-member-content">
                             <h4 class="text-white">Ana Lilia Barbosa Villaseñor</h4>
-                            <p class="mb-0 text-white">Directora</p>
-                        </div>
-                        <!-- Nuevo cuadro de información -->
-                        <div class="team-member-info">
-                            <h4 class="text-white">Denise Costes Intriago</h4>
-                            <p class="text-white">Presidenta</p>
-                            <p class="text-white">Responsable de la estrategia general del clúster.</p>
-                            <p class="text-white">Contacto: denise@example.com</p>
+                            <p class="mb-0 text-white">Directora del Clúster de Educación - CEO Agora Educación</p>
+                            <p class="mb-0 text-white">Directora General Comunicación y Logística Habla</p>
                         </div>
                     </div>
                 </div>

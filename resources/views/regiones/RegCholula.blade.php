@@ -4,7 +4,7 @@
     <title>Turismo en Cholula</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="{{asset('assets/images/Log_cholula.webp')}}" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets/images/iconos/Cholula.ico')}}" type="image/x-icon">
     <!-- dependencias o paquetes -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
