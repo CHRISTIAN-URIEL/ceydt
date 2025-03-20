@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CEYDT Clúster</title>
+    <link rel="icon" href="{{asset('assets/images/iconos/ceydt.ico')}}" type="image/x-icon">
+    <!-- dependencias o paquetes -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
@@ -290,6 +292,13 @@
                             <h4 class="text-white">Denise Costes Intriago</h4>
                             <p class="mb-0 text-white">Presidenta</p>
                         </div>
+                        <!-- Nuevo cuadro de información -->
+                        <div class="team-member-info">
+                            <h4 class="text-white">Denise Costes Intriago</h4>
+                            <p class="text-white">Presidenta</p>
+                            <p class="text-white">Responsable de la estrategia general del clúster.</p>
+                            <p class="text-white">Contacto: denise@example.com</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6" data-aos="fade-down" data-aos-delay="250">
@@ -300,6 +309,13 @@
                         <div class="team-member-content">
                             <h4 class="text-white">Ana Lilia Barbosa Villaseñor</h4>
                             <p class="mb-0 text-white">Directora</p>
+                        </div>
+                        <!-- Nuevo cuadro de información -->
+                        <div class="team-member-info">
+                            <h4 class="text-white">Denise Costes Intriago</h4>
+                            <p class="text-white">Presidenta</p>
+                            <p class="text-white">Responsable de la estrategia general del clúster.</p>
+                            <p class="text-white">Contacto: denise@example.com</p>
                         </div>
                     </div>
                 </div>
@@ -345,12 +361,6 @@
             </div>
         </div>
     </div>
-    <!-- Mensaje de éxito al enviar el formulario -->
-    @if(session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
     </section>
 
     <!-- FOOTER -->
@@ -363,8 +373,6 @@
                         <div class="line"></div>
                         <p>Clúster de Educación y Desarrollo de Talento - Puebla, México.</p>
                         <div class="social-icons">
-                            <!--<a href="#"><i class="ri-facebook-fill"></i></a>
-                            <a href="#"><i class="ri-twitter-fill"></i></a> -->
                             <a href="#"><i class="ri-linkedin-fill"></i></a>
                         </div>
                     </div>
