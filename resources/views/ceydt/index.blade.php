@@ -58,7 +58,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownRegiones">
                             <!-- <li><a class="dropdown-item" href="region-puebla.html">Puebla....</a></li> -->
                             <li><a class="dropdown-item" href="{{ route('regiones.RegCholula')}}">Cholula</a></li>
-                            <!-- <li><a class="dropdown-item" href="region-guerrero.html">Atlixco....</a></li> -->
+                            <li><a class="dropdown-item" href="{{ route('regiones.RegAtlixco')}}">Atlixco</a></li>
                             <li><a class="dropdown-item" href="{{ route('regiones.RegZacatlan')}}">Zacatlan</a></li>
                             <!-- <li><a class="dropdown-item" href="region-otras.html">Sierra Oriental....</a></li> -->
                         </ul>
@@ -97,7 +97,7 @@
                     <div class="section-title">
                         <h1 class="display-4 fw-semibold">Filosofía</h1>
                         <div class="line"></div>
-                        <p class="text-justify">Somos una comunidad educativa colaborativa que trabaja para desarrollar y atraer talento, 
+                        <p class="text-justify">Somos una comunidad educativa colaborativa que trabaja para desarrollar y atraer talento,
                             formando profesionales e investigadores de alta calidad, capaces de proponer soluciones científicas
                             e innovadoras en diferentes sectores, como empresas, gobierno e instituciones.
                         </p>
