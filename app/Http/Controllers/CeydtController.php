@@ -8,7 +8,6 @@ class CeydtController extends Controller
 {
     public function index()
     {
-        //dd('Llegaste al controlador CeydtController'); // Esto detendrá la ejecución y mostrará el mensaje
         return view('ceydt.index');
     }
 
