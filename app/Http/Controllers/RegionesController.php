@@ -15,9 +15,15 @@ class RegionesController extends Controller
     {
         return view('regiones.RegZacatlan');
     }
-    
+
     public function Atlixco()
     {
         return view('regiones.RegAtlixco');
     }
+    
+    public function Puebla()
+    {
+        return view('regiones.RegPuebla');
+    }
+
 }
