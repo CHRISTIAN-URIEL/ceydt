@@ -361,6 +361,23 @@
                 </div>
             </div>
         </section>
+
+        <!-- Sección de Sitio Recomendado -->
+        <section class="recommended-site">
+            <h2>Descubre más sobre Zacatlán</h2>
+            <div class="site-container">
+                <div class="site-card">
+                    <a href="https://www.zacatlansabordealtura.com/" target="_blank">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/714b0a129547735.616da1cda8571.png" loading="lazy" alt="Zacatlán Logo">
+                        <div class="site-info">
+                            <h3>Zacatlán - Sabor de altura</h3>
+                            <p>Descubre la magia de Zacatlán, un Pueblo Mágico lleno de naturaleza, tradición y sabor.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
@@ -373,9 +390,7 @@
                         <div class="line"></div>
                         <p>Descubre la magia de Zacatlán, un Pueblo Mágico lleno de naturaleza, tradición y sabor.</p>
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/LATAMSaborea"><i class="ri-facebook-fill"></i></a>
                             <a href="https://www.instagram.com/s4borea/"><i class="ri-instagram-fill"></i></a>
-                            <a href="https://api.whatsapp.com/send/?phone=522463329118&text&type=phone_number&app_absent=0"><i class="ri-whatsapp-line"></i></a>
                             <a href="https://www.zacatlansabordealtura.com/"><i class="ri-globe-fill"></i></a>
                         </div>
                     </div>
@@ -384,8 +399,6 @@
                         <div class="line"></div>
                         <ul>
                             <li>Zacatlán, Puebla, México</li>
-                            <li>Teléfono: 22-21627455</li>
-                            <li>Email: turismo.zacatlan@gmail.com</li>
                         </ul>
                     </div>
                 </div>
