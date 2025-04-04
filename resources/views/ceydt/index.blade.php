@@ -56,7 +56,7 @@
                             Regiones
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownRegiones">
-                            <!-- <li><a class="dropdown-item" href="region-puebla.html">Puebla....</a></li> -->
+                            <li><a class="dropdown-item" href="{{ route('regiones.RegPuebla')}}">Puebla</a></li>
                             <li><a class="dropdown-item" href="{{ route('regiones.RegCholula')}}">Cholula</a></li>
                             <li><a class="dropdown-item" href="{{ route('regiones.RegAtlixco')}}">Atlixco</a></li>
                             <li><a class="dropdown-item" href="{{ route('regiones.RegZacatlan')}}">Zacatlan</a></li>
@@ -206,7 +206,7 @@
             </div>
             <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
                 <h3>Compromiso y respeto</h3>
-                <p>Prácticas responsables para un futuro susentable y ético.</p>
+                <p>Prácticas responsables para un futuro sustentable y ético.</p>
             </div>
         </div>
         </div>
