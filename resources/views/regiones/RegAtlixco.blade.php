@@ -4,7 +4,7 @@
     <title>Turismo en Atlixco</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="{{asset('assets/images/iconos/LogoVivoAtlixco.ico')}}" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets/images/iconos/L_Atlixco.ico')}}" type="image/x-icon">
     <!-- dependencias o paquetes -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="{{ asset('assets/images/LogoVivoAtlixco.webp') }}" loading="lazy" alt="Atlixco Logo">
+                <img src="{{ asset('assets/images/L_Atlixco.webp') }}" loading="lazy" alt="Atlixco Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,9 +42,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#eventos">Eventos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#telefonos">Teléfonos Importantes</a>
                     </li>
                 </ul>
             </div>
@@ -420,64 +417,18 @@
             </div>
         </section>
 
-        <!-- Sección de Teléfonos Importantes -->
-        <section id="telefonos" class="important-numbers-minimal">
-            <h2>Teléfonos Importantes</h2>
-            <div class="numbers-grid-minimal">
-                <!-- Emergencias -->
-                <div class="number-card-minimal">
-                    <div class="number-icon emergency">
-                        <i class="ri-alarm-warning-line"></i>
-                    </div>
-                    <div class="number-content">
-                        <span class="number-name">Emergencias</span>
-                        <span class="number-value">911</span>
-                        <a href="tel:911" class="call-btn-minimal">
-                            <i class="ri-phone-line"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Turismo -->
-                <div class="number-card-minimal">
-                    <div class="number-icon tourism">
-                        <i class="ri-guide-line"></i>
-                    </div>
-                    <div class="number-content">
-                        <span class="number-name">Turismo</span>
-                        <span class="number-value">244 446 1234</span>
-                        <a href="tel:2444461234" class="call-btn-minimal">
-                            <i class="ri-phone-line"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Hospital -->
-                <div class="number-card-minimal">
-                    <div class="number-icon hospital">
-                        <i class="ri-hospital-line"></i>
-                    </div>
-                    <div class="number-content">
-                        <span class="number-name">Hospital</span>
-                        <span class="number-value">244 446 5678</span>
-                        <a href="tel:2444465678" class="call-btn-minimal">
-                            <i class="ri-phone-line"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Policía -->
-                <div class="number-card-minimal">
-                    <div class="number-icon police">
-                        <i class="ri-police-car-line"></i>
-                    </div>
-                    <div class="number-content">
-                        <span class="number-name">Policía</span>
-                        <span class="number-value">244 446 9101</span>
-                        <a href="tel:2444469101" class="call-btn-minimal">
-                            <i class="ri-phone-line"></i>
-                        </a>
-                    </div>
+        <!-- Sección de Sitio Recomendado -->
+        <section class="recommended-site">
+            <h2>Descubre más sobre Atlixco</h2>
+            <div class="site-container">
+                <div class="site-card">
+                    <a href="https://www.vivoatlixco.com/" target="_blank">
+                        <img src="https://vivoatlixco.com/portal/imgs/logof.jpg" loading="lazy" alt="VivoAtlixco Logo">
+                        <div class="site-info">
+                            <h3>VivoAtlixco</h3>
+                            <p>Un pintoresco pueblo mágico ubicado a solo 30 minutos de la ciudad de Puebla, famoso por su clima primaveral, calles coloridas y cultivos de flores.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -489,9 +440,9 @@
             <div class="container">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-sm-6">
-                        <a href="#"><img src="{{ asset('assets/images/LogoVivoAtlixco.webp') }}" loading="lazy" alt="Atlixco Logo"></a>
+                        <a href="#"><img src="{{ asset('assets/images/L_Atlixco.webp') }}" loading="lazy" alt="Atlixco Logo"></a>
                         <div class="line"></div>
-                        <p>Vivo Atlixco es un portal digital de publicidad para promover los negocios
+                        <p>Atlixco es un portal digital de publicidad para promover los negocios
                             y prestadores de servicios ademas del turismo, eventos,
                             la cultura y dar a conocer todo del municipio para los visitantes y habitantes.
                         </p>
@@ -516,7 +467,7 @@
             <div class="container">
                 <div class="row g-4 justify-content-between">
                     <div class="col-auto">
-                        <p class="mb-0">© 2024 VivoAtlixco Todos los derechos reservados.</p>
+                        <p class="mb-0">© 2024 Atlixco Todos los derechos reservados.</p>
                     </div>
                 </div>
             </div>
